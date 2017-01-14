@@ -3,5 +3,5 @@ language: python
 branches:
   only:
     - master
-	
+
 script: python test.py
