@@ -15,4 +15,7 @@ script:
   
 notifications:
   email:
-    - 158227990@qq.com
+    recipients:
+      - 158227990@qq.com
+    on_success: always
+    on_failure: always
