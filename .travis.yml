@@ -11,5 +11,8 @@ install:
   - pip install -r requirements.txt
 
 script: 
-  - python test.py 
-  - python test2.py
+  - python test.py
+  
+notifications:
+  email:
+    - 158227990@qq.com
