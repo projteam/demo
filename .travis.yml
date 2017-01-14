@@ -10,4 +10,6 @@ branches:
 install:
   - pip install -r requirements.txt
 
-script: test.py test2.py
+script: 
+  - python test.py 
+  - python test2.py
